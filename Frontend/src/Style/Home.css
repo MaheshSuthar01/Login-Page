@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    background-color: #EDF6F9;
+}
+header .home-link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+header .username{
+    color: black;
+    font-size: 1.2rem;
+}
+header .logout-btn{
+    color: black;
+    font-size: 1.2rem;
+    padding: .2rem 1.5rem;
+    border: none;
+    background-color: #83C5BE;
+    border-radius: 2px;
+    cursor: pointer;
+}

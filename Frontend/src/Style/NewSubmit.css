@@ -1,0 +1,51 @@
+h1{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+.new-pass-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #EDF6F9; 
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 10px;
+}
+.new-pass-container input{
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    width: 20rem;
+    height: 2rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-left: .5rem;
+}
+.change-pass-btn{
+    padding: .6rem 5rem;
+    background-color: #83C5BE;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.errorMsg1{
+    height: 1.5rem;
+    position: absolute;
+    margin-top: 1.7rem;
+    margin-right: 1rem;
+    width: 20rem;
+    color: red;
+}
+.errorMsg2{
+    height: .5rem;
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: 14.5rem;
+    width: 35rem;
+    color: red;
+}
